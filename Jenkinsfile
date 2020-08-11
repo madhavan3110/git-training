@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        ACCESS_KEY_ID     = credentials('MyTest')
+        ACCESS_KEY_ID     = credentials('MyTest123')
     }
     stages {
         stage('Build') {
