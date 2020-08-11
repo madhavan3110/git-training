@@ -8,7 +8,7 @@ pipeline {
             steps {
                 echo 'Building..'
                 echo ACCESS_KEY_ID_USR
-                echo ACCESS_KEY_ID_PWD
+                echo ACCESS_KEY_ID_PSW
             }
         }
         stage('Test') {
